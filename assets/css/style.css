@@ -1,0 +1,166 @@
+/* ------------------------------------------------------------------------------------------- */
+/* 1. Reset
+/* ------------------------------------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0; }
+
+body {
+  line-height: 1;
+  color: black;
+  background: white; }
+
+ol, ul {
+  list-style: none; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: separate;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: ""; }
+
+blockquote, q {
+  quotes: "" ""; }
+
+/* ------------------------------------------------------------------------------------------- */
+/* 2. Basic Stuff
+/* ------------------------------------------------------------------------------------------- */
+
+
+html {
+	background-color: #fff;
+	height: 100%;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #0d0d0d;
+  /*background-color: #C1C1C1;*/
+  background-image: url("maze_@2X.png");
+  background-size: 46px auto;
+  
+  color: #968870;
+  font-weight: 700;
+  font-size: 20px;
+  height: 100%;
+  line-height: 1.6em;
+  -webkit-animation: animateBorder 300ms 200ms ease-out both;
+	animation: animateBorder 300ms 200ms ease-out both;
+  -webkit-font-smoothing: antialiased;
+
+ }
+
+#wrapper {
+	margin: 0 auto;
+	max-width: 960px;
+	position: absolute;
+	bottom: 20%;
+	left: 12%;
+}
+
+
+h1, p {
+	 -webkit-animation: animation 750ms 500ms linear both;
+	animation: animation 750ms 500ms linear both;
+}
+
+
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgb(150, 136, 112);
+  background-color: transparent;
+  font-size: 64px;
+  line-height: 1.05em;
+  margin-bottom: 1em;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  text-transform: lowercase;
+  margin-left: -15px;
+  }
+
+
+a {
+	color: rgb(150, 136, 112);
+	text-decoration: underline;
+	transition: all .08s ease-in-out;
+	display: inline-block;
+	border-radius: 1px;
+	
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+	
+	/* for blue bg */
+	background-color: rgb(150, 136, 112);
+	color: #fff;
+	box-shadow: 5px 0 0 rgb(150, 136, 112), -5px 0 0 rgb(150, 136, 112), -5px -3px 0 rgb(150, 136, 112), 5px -3px 0 rgb(150, 136, 112);
+	
+	/* for light bg 
+	background-color: #002CFC;
+	color: #fff;
+	box-shadow: 5px 0 0 #002CFC, -5px 0 0 #002CFC, -5px -3px 0 #002CFC, 5px -3px 0 #002CFC; */
+}
+
+
+p {
+  padding-bottom: 2em;
+  font-weight: bold;
+ }
+
+
+
+
+
+@media (max-width: 700px) { 
+
+
+	#wrapper {
+		margin: 0 auto;
+		position: static;
+		bottom: auto;
+		padding-top: 10%;
+	}
+	
+	
+	h1, p {
+		padding-left: 10%;
+		padding-right: 10%;
+		
+		
+	}
+	
+	h1 {
+		font-size: 48px;
+	}
+
+		  		   	
+}
+
