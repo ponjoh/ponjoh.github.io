@@ -130,10 +130,12 @@ a:hover, a:focus {
 }
 
 a.trail:hover {
+	background-color: #6e32f4;
 	box-shadow: 5px 0 0 #6e32f4, -5px 0 0 #6e32f4, -5px -3px 0 #6e32f4, 5px -3px 0 #6e32f4;
 }
 
 a.spotify:hover {
+	background-color: #1DB954;
 	box-shadow: 5px 0 0 #1DB954, -5px 0 0 #1DB954, -5px -3px 0 #1DB954, 5px -3px 0 #1DB954;
 }
 
