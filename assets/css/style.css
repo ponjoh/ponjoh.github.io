@@ -129,6 +129,14 @@ a:hover, a:focus {
 	box-shadow: 5px 0 0 #002CFC, -5px 0 0 #002CFC, -5px -3px 0 #002CFC, 5px -3px 0 #002CFC; */
 }
 
+a.trail:hover {
+	box-shadow: 5px 0 0 #6e32f4, -5px 0 0 #6e32f4, -5px -3px 0 #6e32f4, 5px -3px 0 #6e32f4;
+}
+
+a.spotify:hover {
+	box-shadow: 5px 0 0 #1DB954, -5px 0 0 #1DB954, -5px -3px 0 #1DB954, 5px -3px 0 #1DB954;
+}
+
 
 p {
   padding-bottom: 2em;
